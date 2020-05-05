@@ -33,7 +33,7 @@ GlobalWorkerOptions.workerPort =
  */
 GlobalWorkerOptions.workerSrc =
   GlobalWorkerOptions.workerSrc === undefined
-    ? ""
+    ? "/js/lib/pdf.worker.js"
     : GlobalWorkerOptions.workerSrc;
 
 export { GlobalWorkerOptions };
