@@ -1,7 +1,7 @@
 # Blocknify version of PDF.js
 We have introduced a change that keeps the signature information of "Sig" PDF widget types.
 This allows us to process embedded signature information and add it into our "content hash".
-We wouldn't be able to pull any signature information otherwise because it get's set to null by default. ( For viewer purposes -- but we don't use the viewer )
+We wouldn't be able to pull any signature information otherwise because it gets set to null by default. ( For viewer purposes -- but we don't use the viewer )
 
 Content hash - The hash that is a result of the PDF document's contents. It is important that it stays the same for all of the document's signers. It is a way for us to prove the document's content matches exactly what the owner of the document posted without taking metadata into account.
 
